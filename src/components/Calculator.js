@@ -52,7 +52,7 @@ function Calculator() {
       {result && <h1>Result: {result}</h1>}
     </div>
   );
-  
+s  
 }
 
 export default Calculator;

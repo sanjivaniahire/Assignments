@@ -1,12 +1,14 @@
-import React from "react";
-import Calculator from "./components/Calculator";
+import React from 'react'
+import StudentForm from './components/StudentForm';
+import './App.css'; // Import the CSS file
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Calculator />
+    <div className="app-container">
+      <h1>Student Information Form</h1>
+      <StudentForm />
     </div>
   );
-}
+};
 
 export default App;
