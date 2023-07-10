@@ -1,12 +1,11 @@
-import React from 'react'
-import StudentForm from './components/StudentForm';
-import './App.css'; // Import the CSS file
+import React from 'react';
+import CoinList from './components/CoinList';
 
 const App = () => {
   return (
-    <div className="app-container">
-      <h1>Student Information Form</h1>
-      <StudentForm />
+    <div>
+      <h1>Cryptocurrency Coins</h1>
+      <CoinList />
     </div>
   );
 };
